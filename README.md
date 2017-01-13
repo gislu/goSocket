@@ -1,14 +1,16 @@
 # goSocketServer
 A socket server which achieve following fuction by native Go http package:
 
-  1. a custom communication protocol between server and client;
+  1. A custom communication protocol between server and client;
   
-  2. a custom connecting mechanism of heartbeating;
+  2. A custom connecting mechanism of heartbeating;
   
   3. Read operational parameters from config files;
   
-  4. a a router-controller structure.
+  4. A router-controller structure to decouple server.
   
+  
+[You can see all the details in my chinese blog](http://blog.csdn.net/ahlxt123/article/details/47320161 "You can see all the details in my chinese blog")
   
 VERSION = "1.0"
 
@@ -23,6 +25,10 @@ VERSION = "1.0"
 
 4. 通过 router-controller 机制解耦服务器
 
+
+[详细内容可以参见我的中文博客](http://blog.csdn.net/ahlxt123/article/details/47320161 "详细内容可以参见我的中文博客")
+
 ......
+
 
 VERSION = "1.0"
