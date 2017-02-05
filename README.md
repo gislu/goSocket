@@ -7,7 +7,7 @@ A socket server which achieve following fuction by native Go http package:
   
   3. Read operational parameters from config files;
   
-  4. A router-controller structure to decouple server.
+  4. A router-controller structure to decouple codes of server.
   
   
 [You can see all the details in my chinese blog](http://blog.csdn.net/ahlxt123/article/details/47320161 "You can see all the details in my chinese blog")
