@@ -26,3 +26,35 @@ A socket server which achieve following fuction by native Go http package:
  
  
 [详情可参加我的中文blog](http://blog.csdn.net/ahlxt123/article/details/47320161 "You can see all the details in my chinese blog")
+
+##Example: 
+```
+//modify a controller in /utils/router.go
+type EchoController struct  {
+
+}
+
+func (this *EchoController) Excute(message Msg)[]byte {
+	mirrormsg,err :=json.Marshal(message)
+	Log("echo the message:", string(mirrormsg))
+	CheckError(err)
+	return mirrormsg
+}
+
+
+func init() {
+	var echo EchoController
+	routers = make([][2]interface{} ,0 , 20)
+	Route(func(entry Msg)bool{
+		if entry.Meta["meta"]=="test"{
+			return true}
+		return  false
+	},&echo)
+}
+
+//after setting parameters in config.yaml, run server.go
+func main() {
+	startServer("./conf/config.yaml")
+}
+
+```
