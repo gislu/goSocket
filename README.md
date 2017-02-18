@@ -24,6 +24,5 @@ A socket server which achieve following fuction by native Go http package:
  
  4. 通过 router-controller 机制解耦服务器
  
- +VERSION = "1.0"
  
- [详情可参加我的中文blog](http://blog.csdn.net/ahlxt123/article/details/47320161 "You can see all the details in my chinese blog")
+[详情可参加我的中文blog](http://blog.csdn.net/ahlxt123/article/details/47320161 "You can see all the details in my chinese blog")
