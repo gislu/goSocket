@@ -1,5 +1,5 @@
 # goSocket
-A socket server which achieve following fuction by native Go http package:
+A socket server which achieve following function by native Go http package:
 
   1. A custom communication protocol between server and client;
   
