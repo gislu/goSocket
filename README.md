@@ -26,7 +26,7 @@ A socket server which achieve following function by native Go http package:
  
  
 [详情可参加我的中文blog](http://blog.csdn.net/ahlxt123/article/details/47320161 "You can see all the details in my chinese blog")
-
+（出国后因为更换手机号的原因，之前的blog账号无法验证登陆了，所以没法更新文章里的一些小错误和回复评论，有疑问的可以在issue里提问）
 ##Example: 
 ```
 //modify a controller in /utils/router.go
